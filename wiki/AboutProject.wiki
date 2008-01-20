@@ -19,7 +19,7 @@ Database solution does not scale very well if you have a large number of concurr
 A memory based Radix Tree scale very well. 
 
 The implementation implements the following simple interface:
-
+{{{
 public interface RadixTree<T> {
     /**
      * Insert a new string key and its value to the tree.
@@ -71,3 +71,4 @@ public interface RadixTree<T> {
      */
     public long getSize();
 }
+}}}
